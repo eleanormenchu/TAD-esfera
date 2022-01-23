@@ -1,0 +1,20 @@
+package tercer_semestre;
+
+import java.util.Scanner;
+
+public class Main {
+
+  
+    
+    static int radio;
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Operaciones_TAD opera = new Operaciones_TAD();
+        
+        System.out.println("Ingrese el radio:");
+        radio = sc.nextInt();
+        
+        opera.muestra_de_valores();
+    }
+    
+}
